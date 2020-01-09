@@ -1,4 +1,5 @@
 extends:
+  import: classic
   file: ../maven-java11/pipeline.yaml
 agent:
   label: jenkins-maven-java11
